@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://34.101.101.30:5432/pg_fds
+    username: jdtuser
+    password: jdt@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
